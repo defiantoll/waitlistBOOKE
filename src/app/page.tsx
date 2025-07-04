@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 // Типизация для Telegram WebApp User
 interface TelegramUser {
   id: number;
